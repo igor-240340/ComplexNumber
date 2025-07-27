@@ -17,7 +17,9 @@ public:
     };
 
     Complex operator*(const Complex& b) const {
-        return Complex();
+        float new_re = re * b.re - im * b.im;
+        float new_im = im * b.re + re * b.im;
+        return Complex{ new_re, new_im };
     };
 
     std::string to_string() const {
