@@ -1,4 +1,4 @@
-## Complex Number
+## ComplexNumbers
 
 Implementation of complex number system.
 
